@@ -1,0 +1,14 @@
+.bird_image{
+	width: 120px;
+	height: 120px;
+	background-image: url("heart.jpg");
+}
+
+.panel{
+
+	background-color: lightgrey;
+	padding: 15px 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+
+}

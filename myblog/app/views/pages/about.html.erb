@@ -1,0 +1,21 @@
+<h1> This is about page</h1>
+
+
+<div class="manually">
+	<a href="/pages/about">About</a>
+	<a href="/pages/contact"> Contact Us</a>
+</div>
+
+
+<div class="generated">
+<%= link_to("About", controller: :pages, action: :about)%>
+<%= link_to("Contact Us", controller: :pages, action: :contact)%>
+</div>
+
+<div>
+	<%= image_tag("bird.jpg", alt: "flying bird")%>
+</div>
+
+<div class="bird_image">
+	
+</div>
